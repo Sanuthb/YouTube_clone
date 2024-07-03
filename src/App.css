@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.darkmode{
+    background-color: black;
+}
+
+::-webkit-scrollbar{
+    width:.2rem;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+::-webkit-scrollbar-thumb{
+    width: .2rem;
+    background-color: red;
+    border-radius: 13px;
+}
+
+.error_status{
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    line-height: 2.5rem;
+}
+
+.error_status .status{
+    font-size: 1.5rem;
+}
+.error_status .status p{
+    font-size: 1.5rem;
+}
+.button{
+    border-radius: 20px;
+    border:2px solid blue;
+    color: blue;
+    background-color: transparent;
+    width: 4rem;
+    padding: .4rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+

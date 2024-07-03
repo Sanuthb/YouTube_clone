@@ -1,0 +1,55 @@
+
+.flex-div1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.sidebar{
+    width: 15rem;
+    padding: 1rem;   
+    height: 38rem;
+    position: fixed;
+    overflow-y: scroll;
+    transition: .3s;
+    display: block;
+    padding-bottom: 2rem;
+}
+.sidebar.darkmode{
+    color: white;
+}
+.shortcut-links{
+    width: 100%;
+    padding: .5rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
+
+.shortcut-links.flex-div1{
+    align-items: baseline;
+}
+
+.shortcut-links .side-link{
+    font-size: 1rem;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.shortcut-links:nth-child(4) .side-link i{
+    color: red;
+}
+.side-link.flex-div1{
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap:2rem;
+}
+.small-bar{
+    width: 6rem;
+    transition: .5s;
+}
+.small-bar.shortcut-links{
+    border-bottom: none;
+}
+.small-bar span{
+    display: none;
+}

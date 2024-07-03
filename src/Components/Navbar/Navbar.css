@@ -1,0 +1,91 @@
+.flex-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.flex-div.darkmode{
+    color: white;
+}
+nav{
+    padding: 1.3rem;
+    border-bottom: 1px solid black;
+}
+
+.nav-left .menu-icon{
+    font-size: 1.5rem;
+}
+.nav-left .span{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-left .span i{
+    color: red;
+}
+.nav-middle .search-bar{
+    width: 27rem;
+    height: 2.5rem;
+    border-radius: 40px;
+    border:1px solid black;
+    padding: .5rem;
+}
+.nav-middle .search-bar input{
+    width: calc(25rem - 1.5rem);
+    height: 2.5rem;
+    border-radius: 40px;
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+    padding: .5rem;
+}
+.nav-middle .search-bar input:focus{
+    outline: none;
+}
+.search-bar i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.nav-middle .microphone {
+    font-size: 1.5rem;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.322);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-right .signin{
+    border: 1px solid blue;
+    padding: .5rem;
+    border-radius: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.signin.flex-div{
+    gap: .8rem;
+}
+
+.nav-right .dots{
+    font-size: 1.5rem;
+}
+
+.dark-mode{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.322);
+}
+
+.span.darkmode{
+    color: white;
+}
